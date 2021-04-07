@@ -1,5 +1,9 @@
 ## Record of PRs submitted
 
+* (Merged) Sample PR for Restructuring the Repository - [#14](https://github.com/chaoss/translations/pull/14)
+    * Repository - [chaoss/translations](https://github.com/chaoss/translations)
+    * Proposed a structure similar to that of working groups.
+    * Related to [#11](https://github.com/chaoss/translations/issues/11)
 
 * (Merged) Added Images & Fixed their links- [#12](https://github.com/chaoss/translations/pull/12)
     * Repository - [chaoss/translations](https://github.com/chaoss/translations)

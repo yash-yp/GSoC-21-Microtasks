@@ -1,5 +1,5 @@
 ## Record of PRs submitted
----
+
 
 * (Merged) Added Images & Fixed their links- [#12](https://github.com/chaoss/translations/pull/12)
     * Repository - [chaoss/translations](https://github.com/chaoss/translations)

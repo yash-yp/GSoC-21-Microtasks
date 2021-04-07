@@ -2,8 +2,8 @@
 ## Meetings Attended
 
 
-|Date |Meeting Name | Meeting Minutes|
-|---|---|---|
+| Date | Meeting Name | Meeting Minutes|
+|-------|---|---|
 | 09-Mar-2021 | Weekly Sync | https://docs.google.com/document/d/1PMDWc6xMe0fNE7shxTK5_HE_ykRBG5w55_Zx5hvzsEY/edit |
 | 16-Mar-2021 | Weekly Sync | https://docs.google.com/document/d/1PMDWc6xMe0fNE7shxTK5_HE_ykRBG5w55_Zx5hvzsEY/edit |
 | 23-Mar-2021 | Weekly Sync | https://docs.google.com/document/d/1PMDWc6xMe0fNE7shxTK5_HE_ykRBG5w55_Zx5hvzsEY/edit |

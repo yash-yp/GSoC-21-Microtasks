@@ -1,6 +1,6 @@
 # Automated Report Generation for WG
 
-This README describes the process of automated generation of report for working groups. 
+The automated system can be used create a report of the metrics which are defined under a particular working group. The details of the automation system have been described below.
 
 ## Pre-Requisites
 

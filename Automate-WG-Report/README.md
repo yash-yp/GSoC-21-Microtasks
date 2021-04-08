@@ -38,6 +38,7 @@ The automated system generates the required report by working in a stepwise mann
 
 ### Conversion to PDF & Front Content Incorporation
 
+- The merged markdown file thus obtained is converted to PDF.
 - The process of conversion is unaltered and the same as described in [Microtask -3](../Microtask-3).
 - The [front-content](front-matter.pdf) is then prepended to the generated PDF to create the final report.
 - [Link to Final report](final-release.pdf)

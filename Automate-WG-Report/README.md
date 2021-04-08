@@ -16,7 +16,7 @@ This README describes the process of automated generation of report for working 
 - Script used to generate the report : [generate-report.py](generate-report.py)
 - Front matter of the report: [front-matter.pdf](front-matter.pdf)
 - File used for formatting: [header.tex](header.tex)
-- Cloned Repository : [wg-common](wg-common)
+- Cloned Repository : [wg-common](wg-common-copy)
 
 ## Report Generation Process
 

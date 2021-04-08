@@ -4,7 +4,7 @@
 
 ## Pre-Requisites
 
-The following libraries and the packages were used in the process of report generation.
+The following software and the libraries were used in the process of report generation.
 
 - [Pandoc](https://pandoc.org/installing.html)
 - [PyPandoc](https://pypi.org/project/pypandoc/)
@@ -51,7 +51,7 @@ The process of report generation is easy to understand. It has been described be
 ### Incorporation of Front-Content
 
 - The PyPDF2 library has been used to merge the generated PDF with the front elements of the report.
-- The merged PDF formed is the required report.
+- The merged PDF formed is the required report.  
 - [Link to Generated Report](sample-report.pdf)
 
 ### Removal of Intermediate Files

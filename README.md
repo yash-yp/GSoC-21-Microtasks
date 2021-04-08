@@ -35,4 +35,6 @@ ___
 
 ## Additional Project Work
  
- (To be updated soon)
+In addition to the completing the above microtasks, I have also created an automation system that can help generate the report for a particular repository.
+
+[Link to Automation System](Automate-WG-Report)

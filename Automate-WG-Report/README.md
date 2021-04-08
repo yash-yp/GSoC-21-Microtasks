@@ -34,7 +34,7 @@ The automated system generates the required report by working in a stepwise mann
 - From the cloned version of the repository the required metric markdown files for each focus area are extracted.
 - Sorted alphabetically, these files are merged to form a single markdown file for each focus area.
 - The files for each focus area are once again sorted alphabetically and merged to form a single markdown file for the repository.
-- Note:-  The extraction of these files is done automatically assuming that repositories follow the [standard template](https://docs.google.com/document/d/1chPzgJa49sO_f3wVqp_NLJupSVyKHSVyuFuwzl4m4KI/). 
+- Note:-  The extraction of these files is done automatically assuming that the repository follows the [standard template](https://docs.google.com/document/d/1chPzgJa49sO_f3wVqp_NLJupSVyKHSVyuFuwzl4m4KI/). 
 
 ### Conversion to PDF & Front Content Incorporation
 

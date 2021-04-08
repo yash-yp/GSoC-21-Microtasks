@@ -3,7 +3,6 @@ from PyPDF2 import PdfFileMerger
 import pypandoc
 
 
-
 def merge_md(mdfile_list, merged_md_name):
     try:
         print(f"Merging markdown files")
@@ -19,7 +18,6 @@ def merge_md(mdfile_list, merged_md_name):
         exit(1)
 
 def convert_md2pdf(md_filename, pdf_filename):
-
     print(f"Converting {md_filename} file to PDF")
     # using 'gfm' results in page overflow of tables hence 'markdown_github'  used
     output = pypandoc.convert_file(md_filename, 'pdf', outputfile=pdf_filename, extra_args=['-f', 'markdown_github',
@@ -38,10 +36,7 @@ def convert_md2pdf(md_filename, pdf_filename):
     assert output == ""
     print(f"Created successfully: {pdf_filename}")
 
-
-
 def merge_pdf(pdf_list, pdf_filename):
-
     try:
         print("Merging PDF files")
         merger = PdfFileMerger()

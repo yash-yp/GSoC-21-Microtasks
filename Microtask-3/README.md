@@ -41,17 +41,18 @@ The process of report generation is easy to understand. It has been described be
 
 - Different formatting flags and files have been used to style the PDF during the conversion process.These have been described below:
 
-    - `'-f', 'markdown_github'`: Specify input file as github-markdown (Using 'gfm' results in text overflow with tables)
-    - `'--pdf-engine=xelatex'`: Specify pdf-engine as XeLaTeX
-    - `'-H', 'header.tex'` : Specify header file
-    - `'--highlight-style','zenburn'`: Highlighting styles for code snippets
-    - `'-V', 'colorlinks=true','-V', 'linkcolour:blue'` : Set hyperlink colour to blue
-    - `'--toc', '--toc-depth= 2'`: Add table of content upto two levels of headings
+    - `'-f', 'markdown_github'`: Specify input file as github-markdown (Using 'gfm' results in text overflow with tables).
+    - `'--pdf-engine=xelatex'`: Specify pdf-engine as XeLaTeX.
+    - `'-H', 'header.tex'` : Specify header file.
+    - `'--highlight-style','zenburn'`: Highlighting style for code snippets
+    - `'-V', 'colorlinks=true','-V', 'linkcolour:blue'` : Set hyperlink colour to blue.
+    - `'--toc', '--toc-depth= 2'`: Add table of contents upto two levels of headings.
 
 ### Incorporation of Front-Content
 
 - The PyPDF2 library has been used to merge the generated PDF with the front elements of the report.
 - The merged PDF formed is the required report.
+- [Link to Generated Report](sample-report.pdf)
 
 ### Removal of Intermediate Files
 

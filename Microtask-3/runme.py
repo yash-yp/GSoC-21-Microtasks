@@ -25,15 +25,15 @@ def convert_md2pdf(md_filename, pdf_filename):
     output = pypandoc.convert_file(md_filename, 'pdf', outputfile=pdf_filename, extra_args=['-f', 'markdown_github',
                                                                                             '--pdf-engine=xelatex',
                                                                                             '-H', 'header.tex',
-                                                                                            '--highlight-style','zenburn',
+                                                                                            '--toc', '--toc-depth= 2',
+                                                                                            '-V', 'geometry:a4paper',
                                                                                             '-V', 'geometry:margin=0.8in',
+                                                                                            '--highlight-style','zenburn',
+                                                                                            '-V', 'fontsize=12pt',
                                                                                             '-V', 'monofont:DejaVuSansMono.ttf',
                                                                                             '-V', 'mathfont:texgyredejavu-math.otf',
-                                                                                            '-V', 'geometry:a4paper',
                                                                                             '-V', 'colorlinks=true',
-                                                                                            '-V', 'linkcolour:blue',
-                                                                                            '-V', 'fontsize=12pt',
-                                                                                            '--toc', '--toc-depth= 2'
+                                                                                            '-V', 'linkcolour:blue'
                                                                                             ])
     assert output == ""
     print(f"Created successfully: {pdf_filename}")

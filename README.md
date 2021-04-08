@@ -5,7 +5,6 @@ ____
 
  ## Project Idea
  [Automate Metrics Release and Process Improvement](https://github.com/chaoss/website/issues/537).
-____
 
 ## Microtask -1
 
@@ -36,3 +35,4 @@ ___
 
 ## Additional Project Work
  
+ (To be updated soon)

@@ -35,6 +35,6 @@ ___
 
 ## Additional Project Work
  
-In addition to the completing the above microtasks, I have also created an automation system that can help generate the report for a particular repository.
+In addition to the completing the above microtasks, I have also created an automation system that can help generate a metrics report for the metrics defined under a particular working group.
 
 [Link to Automation System](Automate-WG-Report)

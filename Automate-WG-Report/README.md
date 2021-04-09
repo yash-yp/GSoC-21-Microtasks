@@ -48,9 +48,11 @@ The automated system generates the required report by working in a stepwise mann
 - The report generation creates some intermediate markdown files and process.
 - These files are removed automatically once they're no longer needed.
 
-### Execution
+## Execution
 
 - To test the process of cloning, run [clone-repo.py](clone-repo.py) script in any folder.
 - To test the process of report generation, run [generate-report.py](generate-report.py) script in this folder itself.
+- Output similar to the following screenshot would indicate successful completion of program:
 
+![Successful Execution](output.png)
 

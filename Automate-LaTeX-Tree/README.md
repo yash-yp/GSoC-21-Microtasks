@@ -2,7 +2,7 @@
 
 The system works by creating a tree of the required working group. For each level a LaTeX file is used to include the files under it.
 
-This automation system can be used to automate the process of creating a report a particular structure.
+This automation system can be used to automate the process of creating a report of the metrics released by a particular working group.
 
 ## Pre-Requisites
 
@@ -26,7 +26,7 @@ This automation system can be used to automate the process of creating a report 
     1. Master file (working group).
     1. Subisidiary files (defined for each focus-area).
     1. Converted Metric Files in LaTeX format.
-- The master file includes the subsidiary files using LaTeX commands (\include{}). These subsidiary files are pre-defined for each focus area
+- The master file includes the subsidiary files using LaTeX commands (\include{}). 
 - The subsidiary files, for each focus area include those LaTeX metric files(obtained by conversion of each metric markdown file to LaTeX earlier) which are defined under it.
 
 ![Structure of Automation System](structure.png)
@@ -48,8 +48,8 @@ This automation system can be used to automate the process of creating a report 
 ### Conversion to PDF
 
 - The master file is then converted to PDF. The conversion of this file results in a chain conversion of all the included LaTeX files.
-- Thus, the resultant PDF generated contains all the metrics which  
-- [Link to Test report](test-release.pdf)
+- Thus, the resultant PDF generated contains all the metrics which are defined in a working group.  
+- [Link to Generated Report](test-release.pdf)
 
 ### Removal of Inessential Files
 
@@ -61,7 +61,6 @@ This automation system can be used to automate the process of creating a report 
 - To test the process of report generation, run [test-report.py](test-report.py).
 - This above defined processes will start taking place in a step wise manner.
 - Some intermediate files will be generated when the code is executed,These will automatically get deleted once the report gets generated.
-
 - Output similar to the following screenshot would indicate successful execution of program:
 
 ![Successful Execution Image](output.png)

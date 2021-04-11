@@ -29,7 +29,7 @@ def convert_md2tex(md_filename, latex_filename):
 
 def convert_tex2pdf(tex_filename, pdf_filename):
     print(f"Converting {tex_filename} file to PDF")
-    # using 'gfm' results in page overflow of tables hence 'markdown_github'  used
+
     output = pypandoc.convert_file(tex_filename, 'pdf', outputfile=pdf_filename, extra_args=['-f', 'latex',
                                                                                             '--pdf-engine=xelatex',
                                                                                              '-H', 'header.tex',
@@ -87,8 +87,7 @@ if __name__=="__main__":
                 dest_path = os.path.join(script_dir_path, "images", file)
                 copy_file(source_filepath,dest_path)
 
-    # code to copy metrics markdown files present in each focus area
-    # and merge them alphabetically
+    # copy required metric files and convert them to latex
     for folder, sub_folders, files in os.walk(root):
 
         # check for images folder or if all elements of files are blacklisted
@@ -105,13 +104,13 @@ if __name__=="__main__":
                 convert_md2tex(file,tex_filename)
                 converted_tex_files.append(tex_filename)
 
-        # once merged individual metric files are no longer required
+        # once converted to latex, individual metric files are no longer required
         delete_files(copied_metric_md_list)
 
-
+    # create required report
     repo_tex_filename = repo_name+".tex"
     convert_tex2pdf(repo_tex_filename,final_report_pdf)
 
-    # code to remove individual markdown files for each focus-area
+    # code to remove inessential files
     delete_files(converted_tex_files)
     delete_folder("images")
